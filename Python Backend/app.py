@@ -37,4 +37,4 @@ def predict():
     except Exception as e:
         return jsonify({"error": str(e)})
 
-app.run(debug=True)
+app.run(host="0.0.0.0", port=5000)
