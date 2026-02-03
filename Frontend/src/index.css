@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar{
+    @apply hidden
+}
+
+input[type="range"] {
+  accent-color: #606cfc;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background: #606cfc;
+  border: 2px solid #606cfc;
+}
+
+input[type="range"]::-moz-range-thumb {
+  background: #606cfc;
+  border: 2px solid #606cfc;
+}
+
+input[type="range"]::-ms-thumb {
+  background: #606cfc;
+  border: 2px solid #606cfc;
+}
